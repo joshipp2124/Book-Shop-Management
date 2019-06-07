@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class BookShop{
 	public static Item [] itemAvailable = new Item[50];	
-	public static void main(String args[]){
+	public static void main(String args[])
+	{
         for(int i=0;i<50;i++){
             itemAvailable[i] = new Item();
         }
